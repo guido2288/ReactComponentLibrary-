@@ -1,0 +1,54 @@
+.testimonial-container{
+    font-family: "Inter", sans-serif;
+}
+
+.wrapper{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #2545B8;
+    height: 400px;
+    padding: 0 142px;
+    width: 1348px;
+    margin: 100px auto;
+}
+
+.wrapper img{
+    position: absolute;
+    top: -32px;
+    left: 10.53%;
+    object-fit: cover;
+    width: 384px;
+    height: 464px;
+    border-radius: 12px;
+}
+
+.wrapper-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    width: 60%;
+}
+
+.wrapper-content p{
+    margin: 0;
+    font-size: 24px;
+    color: #fff;
+}
+
+.wrapper-footer{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    
+}
+
+.wrapper-footer span{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.wrapper-footer :first-child{
+    font-weight: bold;
+}

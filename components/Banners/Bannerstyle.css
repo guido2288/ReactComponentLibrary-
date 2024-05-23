@@ -1,0 +1,71 @@
+.banner-row{
+    display: flex;
+    gap: 20px;
+  }
+  
+  .banner{
+    font-family: "Inter", sans-serif;
+    width: 650px;
+    font-size: 14px;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    margin: 20px 0;
+    position: relative;
+  }
+
+  .icon{
+    position: absolute;
+    left:10px;
+  }
+
+  .line{
+    height: 43px;
+  }
+  
+  .success{
+    background-color: #ECFDF5;
+  }
+  
+  .success h3{
+    color: #065F46;
+  }
+  
+  .success p{
+    color: #047857;
+  }
+  
+  .warning{
+    background-color: #FFFBEB;
+  }
+  
+  .warning h3{
+    color: #92400E;
+  }
+  
+  .warning p{
+    color: #B45309;
+  }
+  
+  .error{
+    background-color: #FEF2F2;
+  }
+  
+  .error h3{
+    color: #92400E;
+  }
+  
+  .error p{
+    color: #B45309;
+  }
+
+  .neutral{
+    background-color: #EFF6FF;
+  }
+  
+  .neutral h3{
+    color: #1E40AF;
+  }
+  
+  .neutral p{
+    color: #1C51B9;
+  }
